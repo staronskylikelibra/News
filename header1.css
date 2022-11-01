@@ -1,0 +1,93 @@
+body{
+    height: 100%;
+}
+
+.header1{
+    height:0px;
+    display:flex;
+    justify-content:center;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.box1{
+    display:flex;
+    align-items:space-between;
+    margin-right: 40px;
+}
+@media (min-width:700px) and (max-width:1200px){
+    .box1{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+.box1 img{
+    width:33px;
+    height:20;
+}
+.name_news{
+    display:flex;
+    flex-direction:row;
+    align-items:space-between;
+}
+.name{
+    font-family:arial;
+    padding:4px 6px 4px 6px;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    height:35px;
+    margin-right: 8px;
+    
+}
+.sign-in{
+    display:flex;
+    flex-direction:row;
+    margin-top: 30px;
+}
+.sign-in p:hover{
+    background-color:rgb(203, 193, 193);
+    font-size: 17px;
+    text-decoration:  underline;
+}
+.choice{
+    cursor: pointer;
+    font-weight: bold;
+    margin-top:23px;
+    padding:5px 30px 5px 30px;
+    transition:0.5s;
+    height: 50px;
+}
+
+.choice:hover{
+    background-color:rgb(229, 224, 224);
+    font-size: 20px;
+    text-decoration:  underline;
+    border-radius: 10px;
+    opacity:0.5;
+}
+.space2{
+    align-items: space-between;
+    display:flex;
+    cursor: pointer;
+}
+.search_BBC{
+    background-color: rgb(193, 192, 192);
+    margin-left: 15px;
+    width: 150px;
+    height:33px;
+    margin-top:28px;
+    display:flex;
+    padding:4px 40px 4px 6px;
+    align-items:center;
+
+}
+.dot{
+    transition:0.2s;
+}
+.dot:hover{
+    padding:0 5px 15px 5px;
+    border-radius: 10px;
+    background-color:rgb(240, 236, 236);
+}

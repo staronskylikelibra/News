@@ -1,0 +1,97 @@
+
+.Describetion{
+    position:relative;
+}
+.logo{
+    
+    margin-left: 100px;
+    margin-top:30px;
+}
+.position{
+    position: absolute;
+    background-color:black;
+    color: white;;
+    bottom:-10px;
+    left:100px;
+}
+.under-picture{
+    position: absolute;
+    margin-left: 105px;
+    bottom:-40px;
+    color: rgba(118, 115, 115, 0.868);
+    font-weight: bold;
+    font-size:17px;
+}
+
+.Name{
+    font-weight: bold;
+    height:0px;
+    padding-top:30px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.Name1{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgba(118, 115, 115, 0.868);
+}
+.line{
+    margin-left: 100px;
+    width: 70px;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+}
+.paragraph1{
+    position: relative;
+    font-family:Century Gothic;
+    font-weight: 400;
+    font-stretch: 100%;  
+    font-size: 18px;
+    margin-left: 100px;
+}
+.paragraph1 img{
+    width: 800px; 
+}
+.pic{
+    position: relative;
+}
+.president1{
+    position: absolute;
+    bottom:-13px;
+    left:0px;
+    background-color:black;
+    color: white;      
+}
+.under{
+    color: rgba(118, 115, 115, 0.868);
+    margin-bottom: 15px;
+}
+
+.end-sentence{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.main-topic{
+    font-size: 30px;
+}
+.Box1{
+    display:flex;
+    flex-direction:row;
+    margin-top: 10px;
+}
+.name1{
+    font-weight:bold;
+    font-size: 15px;
+    margin-right: 20px;
+    border:1px red solid ;
+    padding:7px 15px 7px 15px;
+    transition:0.2s;
+}
+.name1:hover{
+    background-color:rgba(255, 0, 0, 0.682);
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+}

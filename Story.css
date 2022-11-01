@@ -1,0 +1,120 @@
+.column{
+    position:relative;
+    display: block;
+    width:380px;
+    height:100px;
+    background-color:rgba(244, 244, 244, 0.959) ;
+    border: none;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left:150px;
+    margin-bottom: 20px;
+}
+.circle{
+    height:23px;
+    width:23px;
+    position: relative;
+    margin-top:24px;
+    margin-left:5px;
+    border-radius: 20px;
+    background-color:lightseagreen;
+}
+.inside-circle{
+    position: absolute;
+    margin-top:2.5px;
+    margin-left: 2.5px;
+    height: 9px;
+    width:9px;
+    border-radius: 10px;
+    border:4px solid white;
+    background-color:lightseagreen;
+}
+
+.news-story{
+    display:flex;
+    flex-direction:row;
+    height:0;
+}
+.live{
+    color: lightseagreen;
+    position: absolute;
+    margin-left: 30px;
+    height:-10px;
+    font-size: 25px;
+    
+}
+.link{
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+}
+.link:hover{
+    color:rgba(252, 81, 81, 0.863);
+    cursor: pointer;
+    text-decoration:underline;
+}
+.hello{
+    cursor: pointer;
+}
+.thumnail{
+    margin-left:150px;
+    margin-top:65px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.squar{
+    margin-left: 150px;
+    margin-bottom: 15px;
+    position: relative;
+    height:250px;
+    width:380px;
+    background-color: rgba(231, 231, 231, 0.507);
+}
+.pic-world{
+    position: absolute;
+    height:170px;
+    width:380px;
+    object-fit: cover;
+}
+.inside-feature-link{
+    position: absolute;
+    bottom: 15px;
+    font-size:23px;
+    font-weight:700;
+    left: 50px;
+}
+.Feature-link{ 
+    color:black;
+    text-decoration: none;
+    cursor:default;
+}
+.Feature-link:hover{
+    text-decoration-line:none;  
+}
+.box-Most_read{
+    position: relative;
+    width:380px;
+    height:120px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    background-color: rgba(231, 231, 231, 0.507);
+
+}
+.number{
+    position: absolute;
+    right: 330px;
+    color: red;
+    font-size: 55px;
+    top:-30px
+}
+.sub{
+    position: absolute;
+    padding-top:10px;
+    left: 80px;
+    font-size: 23px;
+    
+}

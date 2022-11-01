@@ -1,0 +1,38 @@
+.Information{
+    display: flex;
+    justify-content:center;
+}
+.middle{
+    font-weight: bold;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    display: inline-block;
+    height:130px;
+
+}
+.frist{
+    font-size:50px;
+}
+.picture{
+    width: 25px;
+    height: 25px;
+}
+.image{
+    background:rgba(183, 14, 14, 0.881);
+    width:30px;
+    padding:6px 9px 6px 9px;
+    margin-top:10px;
+    cursor:pointer;
+    transition: 0.2s;
+    opacity: padding 0.7, margin 0.7;
+}
+.image:hover{
+    padding-right: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+.below-information{
+    margin-left:110px;
+}
